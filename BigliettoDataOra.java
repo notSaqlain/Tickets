@@ -1,6 +1,7 @@
 // Biglietto con data e ora specifica
 import java.util.Date;
 public class BigliettoDataOra extends Biglietto {
+    @SuppressWarnings("unused")
     private Date dataOra;
     private boolean usato;
     
